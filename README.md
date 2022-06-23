@@ -7,3 +7,4 @@ Next, I would parse this text file using **regular expressions** and used **Pand
 ![](transcript_dataframe.png)
 
 ## Training the model
+After I uploaded my data frame csv file to Kaggle, an online community of data scientists and machine learning practitioners, I would fine tune a model derived from the one explained here: https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30. The model utiilized **Pytorch's Transformers library** and **Microsft's dialoGPT** for **natural language processing**. The number of training epochs to 6, as 
