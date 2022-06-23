@@ -9,4 +9,4 @@ Next, I would parse this text file using **regular expressions** and used **Pand
 ## Training the model
 After I uploaded my data frame csv file to Kaggle, an online community of data scientists and machine learning practitioners, I would adjust a model derived from the one explained here: https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30. The model utiilized **Pytorch's Transformers library** and **Microsft's dialoGPT** for **natural language processing**. I set the number of training epochs to 6 (# of times the model will cycle through the training set), in order to minimize my perplexity (a measurement of how well a probability distribution or probability model predicts a sample). My perplexity number was 5.28, which is relativley good considering my data set. See below for model training statistics.
 
-![](training stats.png)
+![](trainingstats.png)
